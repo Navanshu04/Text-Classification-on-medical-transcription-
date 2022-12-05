@@ -1,1 +1,3 @@
-# Text-Classification-using-N-Gram
+# Text-Classification-using-N-Gram on medical transcription
+
+A variety of knowledge can be retrieved from the medical domain's data-rich environment for successful outcomes. Using an actual dataset, this notebook project will demonstrate multiclass categorization of medical transcriptions. This study's goal is to categorize medical transcriptions according to the labels for the three medical specialties: ENT, neurosurgery, and discharge summary. After performing text normalization, five different n-gram feature representations are extracted. Furthermore, K-Nearest Neighbors, Decision Tree, and Random Forest, three supervised learning classifiers, were trained on each of the n-gram feature representations. The metric score of macro F1 was used to assess the classification performance. Through the use of tuned Random Forest and unigram feature vectors, the best score on the testing set was over 0.8 macro F1.
